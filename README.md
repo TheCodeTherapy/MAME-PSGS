@@ -34,7 +34,7 @@ The platforms I've enabled to emulate on my shader so far are:
 
 ## Question...
 
-Q: "But why didn't you include <that> system???"
+Q: "But why didn't you include **THAT** system???"
 
 A: Probably because I did not have the time to research about it's color palette yet, or because it's a system capable of showing a limited amount of colors at the same time, chosen dynamically as per scene basis (not a fixed unchangeable color palette, but a restricted palette picked dynamically among a much broader color availability).
 
