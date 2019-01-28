@@ -40,7 +40,7 @@ A: Probably because I did not have the time to research about it's color palette
 
 Q: "Can I add more custom color palettes myself?"
 
-A: Sure, like I this with the above one. Just research the system you want to emulate, and write it to the Shader.
+A: Sure, like I did with the below one. Just research the system you want to emulate, and write it to the Shader.
 
 ```
     // Commodore 64 based on MOS Technology VIC-II chip (also a 16-color YpbPr composite video palette)...
