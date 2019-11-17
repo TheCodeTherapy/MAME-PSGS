@@ -1,6 +1,6 @@
 # MAME-PSGS ( MAME Platform-Switcher GLSL Shader)
 
-[![Watch the video](http://mgz.me/mame-psgs/Image0.jpg)](https://youtu.be/u__lpFvR4kA)
+[![Watch the video](https://mgz.me/images/projects/mamepsgs.jpg)](https://youtu.be/u__lpFvR4kA)
 
 ## What?
 
@@ -130,10 +130,8 @@ Just say hi to me on Twitter, or Tweet me memes [@marcogomez_](https://twitter.c
 
 Sure! But if you click on the first picture of this README.md, it's linked to a YouTube video showing several emulation types of the shader working in real time. :)
 
-![](http://mgz.me/mame-psgs/Image1.jpg)
-![](http://mgz.me/mame-psgs/Image2.jpg)
-![](http://mgz.me/mame-psgs/Image3.jpg)
-![](http://mgz.me/mame-psgs/Image4.jpg)
-![](http://mgz.me/mame-psgs/Image5.jpg)
-![](http://mgz.me/mame-psgs/Image6.jpg)
-![](http://mgz.me/mame-psgs/Image7.jpg)
+[![Watch the video](https://mgz.me/images/projects/screenshots/mamepsgs01.jpg)](https://youtu.be/u__lpFvR4kA)
+![](https://mgz.me/images/projects/screenshots/mamepsgs02.jpg)
+![](https://mgz.me/images/projects/screenshots/mamepsgs03.jpg)
+![](https://mgz.me/images/projects/screenshots/mamepsgs04.jpg)
+![](https://mgz.me/images/projects/screenshots/mamepsgs05.jpg)
