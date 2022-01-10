@@ -43,26 +43,26 @@ Q: "Can I add more custom color palettes myself?"
 A: Sure, like I did with the below one. Just research the system you want to emulate, and write it to the Shader.
 
 ```
-    // Commodore 64 based on MOS Technology VIC-II chip (also a 16-color YpbPr composite video palette)...
-    // This one evolved from VIC-20 and now counts with 3 shades of grey.
-	if (mode == 3.0) {
-		TRY_COLOR(vec3(  0.0,   0.0,   0.0)); //  0 - black       (YPbPr = 0.0   ,  0.0   ,  0.0   )
-		TRY_COLOR(vec3(255.0, 255.0, 255.0)); //  1 - white       (YPbPr = 1.0   ,  0.0   ,  0.0   )
-		TRY_COLOR(vec3(161.0,  77.0,  67.0)); //  2 - red         (YPbPr = 0.313 , -0.383 ,  0.924 )
-		TRY_COLOR(vec3(106.0, 193.0, 200.0)); //  3 - cyan        (YPbPr = 0.625 ,  0.383 , -0.924 )
-		TRY_COLOR(vec3(162.0,  86.0, 165.0)); //  4 - purple      (YPbPr = 0.375 ,  0.707 ,  0.707 )
-		TRY_COLOR(vec3( 92.0, 173.0,  95.0)); //  5 - green       (YPbPr = 0.5   , -0.707 , -0.707 )
-		TRY_COLOR(vec3( 79.0,  68.0, 156.0)); //  6 - blue        (YPbPr = 0.25  ,  1.0   ,  0.0   )
-		TRY_COLOR(vec3(203.0, 214.0, 137.0)); //  7 - yellow      (YPbPr = 0.75  , -1.0   ,  0.0   )
-		TRY_COLOR(vec3(163.0, 104.0,  58.0)); //  8 - orange      (YPbPr = 0.375 , -0.707 ,  0.707 )
-		TRY_COLOR(vec3(110.0,  83.0,  11.0)); //  9 - brown       (YPbPr = 0.25  , -0.924 ,  0.383 )
-		TRY_COLOR(vec3(204.0, 127.0, 118.0)); // 10 - light red   (YPbPr = 0.5   , -0.383 ,  0.924 )
-		TRY_COLOR(vec3( 99.0,  99.0,  99.0)); // 11 - dark grey   (YPbPr = 0.313 ,  0.0   ,  0.0   )
-		TRY_COLOR(vec3(139.0, 139.0, 139.0)); // 12 - grey        (YPbPr = 0.469 ,  0.0   ,  0.0   )
-		TRY_COLOR(vec3(155.0, 227.0, 157.0)); // 13 - light green (YPbPr = 0.75  , -0.707 , -0.707 )
-		TRY_COLOR(vec3(138.0, 127.0, 205.0)); // 14 - light blue  (YPbPr = 0.469 ,  1.0   ,  0.0   )
-		TRY_COLOR(vec3(175.0, 175.0, 175.0)); // 15 - light grey  (YPbPr = 0.625  , 0.0   ,  0.0   )
-	}
+// Commodore 64 based on MOS Technology VIC-II chip (also a 16-color YpbPr composite video palette)...
+// This one evolved from VIC-20 and now counts with 3 shades of grey.
+if (mode == 3.0) {
+    tryColor(vec3(  0.0,   0.0,   0.0)); //  0 - black       (YPbPr = 0.0   ,  0.0   ,  0.0   )
+    tryColor(vec3(255.0, 255.0, 255.0)); //  1 - white       (YPbPr = 1.0   ,  0.0   ,  0.0   )
+    tryColor(vec3(161.0,  77.0,  67.0)); //  2 - red         (YPbPr = 0.313 , -0.383 ,  0.924 )
+    tryColor(vec3(106.0, 193.0, 200.0)); //  3 - cyan        (YPbPr = 0.625 ,  0.383 , -0.924 )
+    tryColor(vec3(162.0,  86.0, 165.0)); //  4 - purple      (YPbPr = 0.375 ,  0.707 ,  0.707 )
+    tryColor(vec3( 92.0, 173.0,  95.0)); //  5 - green       (YPbPr = 0.5   , -0.707 , -0.707 )
+    tryColor(vec3( 79.0,  68.0, 156.0)); //  6 - blue        (YPbPr = 0.25  ,  1.0   ,  0.0   )
+    tryColor(vec3(203.0, 214.0, 137.0)); //  7 - yellow      (YPbPr = 0.75  , -1.0   ,  0.0   )
+    tryColor(vec3(163.0, 104.0,  58.0)); //  8 - orange      (YPbPr = 0.375 , -0.707 ,  0.707 )
+    tryColor(vec3(110.0,  83.0,  11.0)); //  9 - brown       (YPbPr = 0.25  , -0.924 ,  0.383 )
+    tryColor(vec3(204.0, 127.0, 118.0)); // 10 - light red   (YPbPr = 0.5   , -0.383 ,  0.924 )
+    tryColor(vec3( 99.0,  99.0,  99.0)); // 11 - dark grey   (YPbPr = 0.313 ,  0.0   ,  0.0   )
+    tryColor(vec3(139.0, 139.0, 139.0)); // 12 - grey        (YPbPr = 0.469 ,  0.0   ,  0.0   )
+    tryColor(vec3(155.0, 227.0, 157.0)); // 13 - light green (YPbPr = 0.75  , -0.707 , -0.707 )
+    tryColor(vec3(138.0, 127.0, 205.0)); // 14 - light blue  (YPbPr = 0.469 ,  1.0   ,  0.0   )
+    tryColor(vec3(175.0, 175.0, 175.0)); // 15 - light grey  (YPbPr = 0.625  , 0.0   ,  0.0   )
+}
 ```
 
 ## How do I use it? I'm not a programmer :(
@@ -82,11 +82,28 @@ gl_glsl_filter            1
 glsl_shader_mame0         ".\glsl\mame-psgs"
 ```
 
-The most important lines above are the **gl_glsl                   1** and the one that points the first shader to mame-psgs.
+The most important parameters above are:
+**`gl_glsl 1`** to enable the GLSL shaders;
+**`glsl_shader_mame0 ".\glsl\mame-psgs"`** to specify the path for the Vertex and Fragment shaders.
+
+Please make sure that you're using `opengl` as your MAME video mode. You can change the video mode through the GUI, or editing your `mame.ini` file manually. Just search for the `# OSD VIDEO OPTIONS` section on `mame.ini`, and set the `video` parameter to `opengl` as shown in the quote below:
+
+```
+#
+# OSD VIDEO OPTIONS
+#
+video                     opengl
+numscreens                1
+window                    0
+maximize                  1
+waitvsync                 0
+syncrefresh               0
+monitorprovider           auto
+```
 
 ## How do I select the color palette emulation that I want to play with?
 
-All the configuration settings for the shader are specified on the Vertex Shader (custom_crt.vsh). You can edit the file and select the palette emulation you want on the **palette_emulation = < value >** line. The modes are briefly described right above the configuration line, as per you can see on this part of the file:
+All the configuration settings for the shader are specified on the Vertex Shader (custom_crt.vsh). You can edit the file and select the palette emulation you want on the **palette_emulation = <value>** line. The modes are briefly described right above the configuration line, as per you can see on this part of the file:
 
 ```
 // Palette Emulation parameters:
@@ -124,14 +141,4 @@ Yes, it is on my plans to write the HLSL version of this same shader (maybe with
 
 ## That's great man! How can I support you to do more cool stuff like that?
 
-Just say hi to me on Twitter, or Tweet me memes [@marcogomez_](https://twitter.com/marcogomez_)
-
-## Provide me some more screenshots or you're a fool, YOU'RE A FOOL I SAY!!!
-
-Sure! But if you click on the first picture of this README.md, it's linked to a YouTube video showing several emulation types of the shader working in real time. :)
-
-[![Watch the video](https://mgz.me/images/projects/screenshots/mamepsgs01.jpg)](https://youtu.be/u__lpFvR4kA)
-![](https://mgz.me/images/projects/screenshots/mamepsgs02.jpg)
-![](https://mgz.me/images/projects/screenshots/mamepsgs03.jpg)
-![](https://mgz.me/images/projects/screenshots/mamepsgs04.jpg)
-![](https://mgz.me/images/projects/screenshots/mamepsgs05.jpg)
+Just say hi to me on Twitter, or Tweet me memes [@TheCodeTherapy](https://twitter.com/TheCodeTherapy)
