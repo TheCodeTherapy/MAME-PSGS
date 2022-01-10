@@ -135,10 +135,6 @@ palette_emulation = 13.0; // Color palette emulation (change this value)
 
 Yes, you can follow this repo so you can keep updated once I include new ones **:) You can also Favorite / Star this repo so I can have an idea if this was useless for others than me (I loved playing with it), and if I should invest more time on refining the shader's results** (and maybe some optimization as I don't have the resources to test it on slower platforms as Raspberry Pi 3 to evaluate the shader's performance). Thanks in advance for your interest. Have fun playing some old-school games :)
 
-## Will you write something similar to be used with DirectX 9.0?
-
-Yes, it is on my plans to write the HLSL version of this same shader (maybe with some extra features) ASAP.
-
 ## That's great man! How can I support you to do more cool stuff like that?
 
 Just say hi to me on Twitter, or Tweet me memes [@TheCodeTherapy](https://twitter.com/TheCodeTherapy)
