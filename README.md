@@ -103,7 +103,7 @@ monitorprovider           auto
 
 ## How do I select the color palette emulation that I want to play with?
 
-All the configuration settings for the shader are specified on the Vertex Shader (custom_crt.vsh). You can edit the file and select the palette emulation you want on the **palette_emulation = <value>** line. The modes are briefly described right above the configuration line, as per you can see on this part of the file:
+All the configuration settings for the shader are specified on the Vertex Shader (**`mame-psgs.vsh`**). You can edit the file and select the palette emulation you want on the **`palette_emulation = <value>;`** line. The modes are briefly described right above the configuration line, as per you can see on this part of the file:
 
 ```
 // Palette Emulation parameters:
@@ -128,7 +128,7 @@ All the configuration settings for the shader are specified on the Vertex Shader
 // 18.0 = 6 colors (grayscale)
 // 19.0 = 3 colors (grayscale)
 
-palette_emulation = 13.0;				// Color palette emulation
+palette_emulation = 13.0; // Color palette emulation (change this value)
 ```
 
 ## Will you create more custom color palettes?
