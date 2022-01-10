@@ -1,6 +1,6 @@
 # MAME-PSGS ( MAME Platform-Switcher GLSL Shader)
 
-[![Watch the video](https://mgz.me/images/projects/mamepsgs.jpg)](https://youtu.be/u__lpFvR4kA)
+[![Watch the video](https://mgz.me/publicfiles/images/mamepsgs.png)](https://youtu.be/u__lpFvR4kA)
 
 ## What?
 
