@@ -480,6 +480,9 @@ float intersect(vec2 xy) {
 }
 
 vec2 bkwtrans(vec2 xy) {
+    if (length(xy) < 0.001) {
+        return xy;
+    }
     float c = intersect(xy);
     vec2 point = vec2(c) * xy;
     point -= vec2(-R) * sinangle;
@@ -489,7 +492,11 @@ vec2 bkwtrans(vec2 xy) {
     float A = dot(tang, tang) + 1.0;
     float B = -2.0 * dot(poc, tang);
     float C = dot(poc, poc) - 1.0;
-    float a = (-B + sqrt(B * B - 4.0 * A * C)) / (2.0 * A);
+    float discriminant = B * B - 4.0 * A * C;
+    if (discriminant < 0.0) {
+        return xy;
+    }
+    float a = (-B + sqrt(discriminant)) / (2.0 * A);
     vec2 uv = (point - a * sinangle) / cosangle;
     float r = R * acos(a);
     return uv * r / sin(r / R);
